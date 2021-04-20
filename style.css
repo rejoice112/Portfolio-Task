@@ -1,0 +1,168 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url("background4.jpg");
+	background-repeat: no-repeat;
+	
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+section{
+	width: 100%;
+	height: 95vh;
+	background-image: url("background4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	background-color: #FFFFFF;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	padding: 0px 5%;
+}
+nav ul {
+	display: flex;
+}
+nav ul li a{
+	margin: 30px;
+	font-family: serif;
+	font-size: 15px;
+	font-weight: 600;
+}
+nav ul li a:hover{
+	color: #e6e6e6;
+}
+
+.logo{
+	font-family: cursive;
+	color: #000000;
+	font-size: 20px;
+}
+.active{
+	font-weight: bold;
+	color: #2d2a2a;
+}
+.text-container p:nth-child(1){
+	font-family: serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #6d6d6d;
+	font-size: 20px; 
+}
+.text-container p:nth-child(2){
+	font-family: serif;
+	font-weight: bolder;
+	letter-spacing: 1px;
+	color: #6d6d6d;
+	font-size: 40px;
+}
+.text-container p:nth-child(3){
+	font-family: cursive;
+	color: #403e3e;
+	font-size: 20px;
+	line-height: 30px;
+}
+.text-container p{
+	line-height: 0;
+	margin: 45px 0 25px;
+
+}
+.text-container{
+	position: absolute;
+	left: 13%;
+	top: 40%;
+	transform: translate(-13%,-42%);
+}
+.text-container button{
+	width: 130px;
+	height: 42px;
+	border-radius: 10px;
+	font-family: serif;
+	font-size: 14px;
+	outline: none;
+	margin: 0 10px
+}
+.hire-btn{
+	border: 2px solid #373636;
+	color: #373636;
+
+}
+.down-cv{
+	background-color: #0b0b0b;
+	color: #FFFFFF;
+	border: none;
+}
+#other-info{
+	display: block;
+	height: 100px;
+	width: fit-content;
+	padding: 50px;
+	margin: 20px;
+}
+.core-skill{
+	display: block;
+	align-items: center;
+	
+}
+.core-skill h4{
+	text-align: center;
+	font-size: medium;
+	font-weight: 800;
+	padding-bottom: 30px;
+}
+.core-skill li{
+	list-style: square;
+}
+
+.education{
+	display:block;
+	align-items: center;
+}
+
+.education h4{
+	text-align: center;
+	font-size: medium;
+	font-weight: bold;
+	padding-bottom: 15px;
+	padding-top: 30px;
+
+}
+.education h3 span{
+	position: relative;
+	left: 70px;
+}
+.certifications{
+	display: block;
+	align-items: center;
+}
+.certifications h4{
+	text-align: center;
+	font-size: medium;
+	font-weight: 600;
+	padding-bottom: 15px;
+	padding-top: 30px;
+	
+}
+.certifications li{
+	list-style: square;
+}
+.reference{
+	display: block;
+	align-items: center;
+}
+.reference h4{
+	text-align: center;
+	font-size: medium;
+	font-weight: 600;
+	padding-bottom: 15px;
+	
+}
